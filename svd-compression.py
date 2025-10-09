@@ -54,17 +54,15 @@ plt.show()
 
 # Cumulative sum
 ##############################################################
-cum_energy = np.cumsum(S**2) / np.sum(S**2)
+cum_sum = np.cumsum(S) / np.sum(S)
+plt.plot(np.arange(1, len(S) + 1), cum_sum * 100, label="Кумулативна енергија")
 
-plt.figure(figsize=(7, 5))
-plt.plot(
-    cum_energy,
-)
-for r in r_vals:
-    plt.scatter(r, cum_energy[r - 1], s=40, label=f"r = {r}")
-plt.title("Однос кумулативне енергије и ранга r")
-plt.xlabel("Rang (r)")
-plt.ylabel("Кумулативна енергија")
+for r in [10, 30, 150]:
+    plt.plot(r, cum_sum[r - 1] * 100, "o", label=f"r = {r}")
+
+plt.xlabel("Ранг (r)")
+plt.ylabel("Кумулативна сума (%)")
+plt.title("Однос кумулативне суме и ранга r")
 plt.legend()
 plt.grid(True)
 plt.savefig("results/cum_sum.png", dpi=200)
