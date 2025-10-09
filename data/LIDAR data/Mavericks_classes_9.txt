@@ -1,0 +1,9 @@
+Unclassified 0
+Ground 1
+Road_markings 2
+Natural 3
+Building 4
+Utility_line 5
+Pole 6
+Car 7
+Fence 8

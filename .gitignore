@@ -5,3 +5,5 @@ venv/
 
 .vscode/
 __pycache__/
+.gitignor
+data/Point cloud LIDAR (Toronto 3D).zip
