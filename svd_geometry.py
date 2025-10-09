@@ -1,4 +1,4 @@
-#
+# Python script for geometric visualization of SVD transformations
 import numpy as np
 import matplotlib.pyplot as plt
 
