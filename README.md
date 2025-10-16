@@ -261,16 +261,3 @@ This project was developed as a seminar work for a university course on numerica
 ## 📄 License
 
 This project is intended for educational purposes.
-
----
-
-**Author**: University Project  
-**Date**: October 2025
-=======
-# Moore–Penrose Pseudoinverse and SVD Applications
-
-This repository contains a university project demonstrating the use of the Moore–Penrose pseudoinverse and Singular Value Decomposition (SVD) in data analysis, image compression, and LiDAR surface approximation.
-
-The goal is to show how these fundamental linear algebra concepts can be applied to real-world datasets — from visualizing geometric SVD transformations to reconstructing ground surfaces from LiDAR data using least-squares approximation.
->>>>>>> 5cdf8190eb13e38c5ca8dc1f55138bab688ff302
-
