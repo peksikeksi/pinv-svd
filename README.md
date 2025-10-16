@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SVD Applications in Computer Vision and LIDAR Data Analysis
 
 A comprehensive university project demonstrating practical applications of Singular Value Decomposition (SVD) and pseudo-inverse (Moore-Penrose inverse) in image compression and 3D LIDAR point cloud analysis.
@@ -265,4 +266,11 @@ This project is intended for educational purposes.
 
 **Author**: University Project  
 **Date**: October 2025
+=======
+# Moore–Penrose Pseudoinverse and SVD Applications
+
+This repository contains a university project demonstrating the use of the Moore–Penrose pseudoinverse and Singular Value Decomposition (SVD) in data analysis, image compression, and LiDAR surface approximation.
+
+The goal is to show how these fundamental linear algebra concepts can be applied to real-world datasets — from visualizing geometric SVD transformations to reconstructing ground surfaces from LiDAR data using least-squares approximation.
+>>>>>>> 5cdf8190eb13e38c5ca8dc1f55138bab688ff302
 
