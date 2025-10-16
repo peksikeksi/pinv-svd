@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SVD Applications in Computer Vision and LIDAR Data Analysis
 
 A comprehensive university project demonstrating practical applications of Singular Value Decomposition (SVD) and pseudo-inverse (Moore-Penrose inverse) in image compression and 3D LIDAR point cloud analysis.
